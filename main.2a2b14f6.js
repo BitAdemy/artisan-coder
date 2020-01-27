@@ -11,4 +11,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"jP6t":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("./1-name"),i=require("./2-function"),o=require("./3-data"),n=require("./4-object"),r=require("./artisan");function t(){return!1}function s(){return!0}function l(){return["Show intention and hide details.","Avoid globalization and coupling.","Separate responsibilities.","Don't Repeat Yourself (DRY)","Keep It Simple, (not) Stupid (KISS)"]}function a(t){console.log(t),e.writeReadableCode([t[0]]),i.writeSmallFunctions([t[2]]),o.avoidPrimitiveObsession([t[4]]),n.writeShortModules(t);var s={values:!0};console.log({discipline:s});var l=r.becomeAnArtisan(t,s);console.log(l)}exports.isMyCodeClean=t,exports.shouldICleanMyCode=s,exports.getCleanPrinciples=l,exports.applyPrinciples=a;
 },{"./1-name":"XC9b","./2-function":"QrUY","./3-data":"XaKI","./4-object":"wsHz","./artisan":"Qqbl"}]},{},["jP6t"], null)
-//# sourceMappingURL=/artisan-coder/index.html/main.2a2b14f6.js.map
+//# sourceMappingURL=/artisan-coder/main.2a2b14f6.js.map
