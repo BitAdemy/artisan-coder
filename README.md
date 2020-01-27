@@ -4,9 +4,9 @@ Project used in meetups and conferences to illustrate Clean Code concepts and So
 
 ## Repositorios:
 
-### [En GitHub](https://github.com/BitAdemy/artisan-coder)
-
 ### [En CodeSandbox](https://codesandbox.io/s/github/BitAdemy/artisan-coder/tree/master/?fontsize=14&hidenavigation=1&theme=dark)
+
+### [Demo](https://bitademy.github.io/artisan-coder/)
 
 ## Para saber más:
 
