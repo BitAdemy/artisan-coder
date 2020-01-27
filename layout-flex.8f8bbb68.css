@@ -1,2 +1,2 @@
 body{min-height:100vh}body,body>main{display:flex;flex:1 1 auto;flex-direction:column}body>main>nav{order:-1;flex-direction:row}body>main>section{flex:1 1 auto}body>main>aside{display:none}@media (min-width:768px){body>main{flex-direction:row}body>main>aside,body>main>nav{flex:0 0 260px;display:flex;flex-direction:column}}
-/*# sourceMappingURL=/artisan-coder/layout-flex.8f8bbb68.css.map */
+/*# sourceMappingURL=/artisan-coder/index.html/layout-flex.8f8bbb68.css.map */
