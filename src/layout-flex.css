@@ -1,0 +1,42 @@
+/**
+ * Make body at least 100% height
+ * You can also use a combination
+ * of height: 100% in <html> and
+ * min-height: 100% in <body>.
+ */
+body {
+  min-height: 100vh;
+}
+
+body,
+body > main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+body > main > nav {
+  order: -1;
+  flex-direction: row;
+}
+
+body > main > section {
+  flex: 1 1 auto;
+}
+
+body > main > aside {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body > main {
+    flex-direction: row;
+  }
+
+  body > main > nav,
+  body > main > aside {
+    flex: 0 0 260px;
+    display: flex;
+    flex-direction: column;
+  }
+}

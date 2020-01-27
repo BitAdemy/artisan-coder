@@ -1,0 +1,25 @@
+{
+  "name": "0-artisan-coder-meetups",
+  "version": "1.0.0",
+  "description": "Clean up your code one step at a time",
+  "homepage": "https://bitademy.com/clean-code/",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "learn@bitademy.com",
+    "url": "https://bitademy.com"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [],
+  "jest": {
+    "verbose": true
+  }
+}
