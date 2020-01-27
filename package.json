@@ -8,16 +8,38 @@
     "email": "learn@bitademy.com",
     "url": "https://bitademy.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitAdemy/artisan-coder"
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /artisan-coder",
+    "deploy": "gh-pages -d dist",
+    "test": "jest --watch -o",
+    "format": "prettier --write \"./**/*.{js,ts,json}\"",
+    "lint": "eslint . --ext .ts",
+    "jest": "jest"
   },
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1",
-    "typescript": "^3.7.5"
+    "gh-pages": "^2.1.1",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^24.0.25",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
   },
   "keywords": [],
   "jest": {
