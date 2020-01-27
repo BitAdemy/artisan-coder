@@ -1,33 +1,36 @@
+/* eslint-disable max-nested-callbacks */
+/* eslint-disable max-lines-per-function */
 import {
-  useAnStyleGuide,
-  getLimits,
   enforceLimits,
+  getGrammarKindForFlagVariableNames,
   getGrammarKindForVariableNames,
-  getGrammarKindsForFunctionNames
-} from "./index";
+  getGrammarKindsForFunctionNames,
+  getLimits,
+  shouldUseAnStyleGuide,
+} from './index';
 
-describe("Plain crystal clear Code", () => {
-  test("Use an style guide", () => {
-    expect(useAnStyleGuide()).toEqual(true);
+describe('Plain crystal clear Code', () => {
+  test('Use an style guide', () => {
+    expect(shouldUseAnStyleGuide()).toEqual(true);
   });
-  test("Set Your Limits", () => {
-    expect(getLimits()).toEqual({ lineLenght: 80, fileLength: 160 });
+  test('Set Your Limits', () => {
+    expect(getLimits()).toEqual({ lineLenght: 100, fileLength: 200 });
   });
-  test("Enforce limits using tools", () => {
-    expect(enforceLimits()).toEqual(["Prettier", "EsLint"]);
+  test('Enforce limits using tools', () => {
+    expect(enforceLimits({ lineLenght: 100, fileLength: 200 })).toEqual([
+      'Prettier:100',
+      'EsLint:200',
+    ]);
   });
-  test("Use nouns for variables and classes", () => {
-    expect(getGrammarKindForVariableNames(false)).toEqual("noun");
+  test('Use nouns for variables and classes', () => {
+    expect(getGrammarKindForVariableNames()).toEqual('noun');
   });
-  test("Use verbs and nouns for flag variables", () => {
-    const isAFlagVariable = true;
-    expect(getGrammarKindForVariableNames(isAFlagVariable)).toEqual("verbNoun");
+  test('Use verbs and nouns for flag variables', () => {
+    expect(getGrammarKindForFlagVariableNames()).toEqual('verbNoun');
   });
-  test("Use verbs for functions", () => {
+  test('Use verbs for functions', () => {
     expect(
-      getGrammarKindsForFunctionNames().every(grammarKind =>
-        grammarKind.startsWith("verb")
-      )
+      getGrammarKindsForFunctionNames().every(grammarKind => grammarKind.startsWith('verb'))
     ).toEqual(true);
   });
 });
