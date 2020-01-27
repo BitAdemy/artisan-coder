@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /artisan-coder/index.html",
+    "build": "parcel build index.html --public-url /dist/",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /artisan-coder/",
     "deploy": "gh-pages -d dist",
     "test": "jest --watch -o",
     "format": "prettier --write \"./**/*.{js,ts,json}\"",

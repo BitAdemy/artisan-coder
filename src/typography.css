@@ -3,7 +3,7 @@
 /* Setup */
 html {
   /* Change default typefaces here */
-  font-family: "Lato", serif;
+  font-family: 'Lato', serif;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
@@ -61,13 +61,13 @@ h3 {
   font-size: 1.414rem;
 }
 h4 {
-  font-size: 0.707rem;
+  font-size: 1rem;
 }
 h5 {
-  font-size: 0.4713333333333333rem;
+  font-size: 0.707rem;
 }
 h6 {
-  font-size: 0.3535rem;
+  font-size: 0.471rem;
 }
 /* Tables */
 table {
