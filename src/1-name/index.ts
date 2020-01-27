@@ -42,7 +42,7 @@ export function getGrammarKindsForFunctionNames(): string[] {
 function printGrammar(grammar: string[]): void {
   grammar.forEach(printToConsole);
 }
-function printToConsole(message: string): void {
+export function printToConsole(message: string): void {
   console.log(message);
 }
 export type Limits = { lineLenght: number; fileLength: number };
