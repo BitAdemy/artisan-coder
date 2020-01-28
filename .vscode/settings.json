@@ -28,6 +28,14 @@
   "html.format.wrapAttributes": "force-aligned",
   "html.format.enable": true,
   "html.format.wrapLineLength": 100,
-  "spellright.language": ["en", "es"],
-  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
+  "spellright.language": [
+    "en",
+    "es"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "typescript"
+  ]
 }

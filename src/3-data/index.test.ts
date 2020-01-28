@@ -1,13 +1,15 @@
-import {} from "./index";
+/* eslint-disable no-magic-numbers */
+/* eslint-disable max-nested-callbacks */
+import { avoidPrimitiveObsession, getNumberOfParams, shouldAvoidCondionals } from './index';
 
-describe("Data structures everywhere", () => {
-  test("Avoid primitive obsession", () => {
-    expect(true).toEqual(true);
+describe('Data structures everywhere', () => {
+  test('Avoid primitive obsession', () => {
+    expect(avoidPrimitiveObsession([])).toBeUndefined();
   });
-  test("Reduce function parameters", () => {
-    expect(true).toEqual(true);
+  test('Reduce function parameters', () => {
+    expect(getNumberOfParams()).toBeLessThanOrEqual(2);
   });
-  test("Avoid conditionals using data", () => {
-    expect(true).toEqual(true);
+  test('Avoid conditionals using data', () => {
+    expect(shouldAvoidCondionals()).toEqual(true);
   });
 });
