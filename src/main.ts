@@ -30,7 +30,8 @@ export function applyPrinciples(principles: string[]): void {
   avoidPrimitiveObsession(principles);
   writeShortModules(principles);
   const discipline = {
-    values: true,
+    values: ['habits', 'professionalism'],
+    skills: ['technical', 'collaborative'],
   };
   console.log({ discipline });
   const artisan = becomeAnArtisan(principles, discipline);
