@@ -24,7 +24,6 @@ export function getCleanPrinciples(): string[] {
 }
 
 export function applyPrinciples(principles: string[]): void {
-  console.log(principles);
   writeReadableCode(principles);
   writeSmallFunctions(principles);
   avoidPrimitiveObsession(principles);
@@ -33,7 +32,6 @@ export function applyPrinciples(principles: string[]): void {
     values: ['habits', 'professionalism'],
     skills: ['technical', 'collaborative'],
   };
-  console.log({ discipline });
   const artisan = becomeAnArtisan(principles, discipline);
   console.log(artisan);
 }
