@@ -13,5 +13,5 @@ export const activities = [
   'Rename until reveal intention with names.',
   'Extract instructions until your functions become simples.',
   'Group primitive variables in data structures.',
-  'Apply SOLID principles until to ensure that your systems have low coupling and high cohesion.',
+  'Apply SOLID principles until ensure that your systems have low coupling and high cohesion.',
 ];

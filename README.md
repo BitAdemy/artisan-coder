@@ -21,3 +21,5 @@ Project used in meetups and conferences to illustrate Clean Code concepts and So
 ### [Presenciales: VitaeDigital](http://www.vitaedigital.com/proyectos-de-formacion?q=clean+code)
 
 ### [On-line: bit_Ademy](https://aula.bitademy.com/p/codigo-limpio/?product_id=1613324&coupon_code=CLEAN_CODE_MEETUP_20)
+
+[![bit_ademy](./src/assets/bit_ademy.png)](https://bitademy.com)

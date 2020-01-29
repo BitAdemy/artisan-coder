@@ -5,6 +5,7 @@ html {
   /* Change default typefaces here */
   font-family: 'Lato', serif;
   font-size: 100%;
+  color: #364b45;
   -webkit-font-smoothing: antialiased;
 }
 /* Copy & Lists */
@@ -83,4 +84,19 @@ table th {
 /* Code blocks */
 code {
   vertical-align: bottom;
+}
+a {
+  color: #364b45;
+  text-decoration: none;
+  border-bottom: 2px solid #49fcd4;
+}
+a:hover {
+  color: #364b45;
+  background-color: #49fcd4;
+  text-decoration: none;
+}
+a:visited {
+  color: #364b45;
+  text-decoration: none;
+  border-bottom: 2px solid #49fcd4;
 }
