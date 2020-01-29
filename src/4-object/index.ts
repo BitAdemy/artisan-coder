@@ -12,7 +12,6 @@ export function getRecomendations(): Recomendation {
 }
 
 export class Solid {
-  constructor() {}
   doSingleResponsability(): Solid {
     return this;
   }

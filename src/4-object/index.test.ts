@@ -4,13 +4,13 @@ import { getRecomendations, Solid, writeShortModules } from './index';
 
 describe('Business logic abstractions', () => {
   test('Limit the module size', () => {
-    expect(writeShortModules([])).toEqual(true);
+    expect(writeShortModules([])).toBeTruthy();
   });
   test('Favors high cohesion', () => {
-    expect(getRecomendations().cohesion).toEqual(true);
+    expect(getRecomendations().cohesion).toBeTruthy();
   });
   test('Favors low coupling', () => {
-    expect(getRecomendations().coupling).toEqual(false);
+    expect(getRecomendations().coupling).toBeFalsy();
   });
   test('Follow the SOLID principles', () => {
     const myCode = new Solid();

@@ -10,6 +10,6 @@ describe('Data structures everywhere', () => {
     expect(getNumberOfParams()).toBeLessThanOrEqual(2);
   });
   test('Avoid conditionals using data', () => {
-    expect(shouldAvoidCondionals()).toEqual(true);
+    expect(shouldAvoidCondionals()).toBeTruthy();
   });
 });

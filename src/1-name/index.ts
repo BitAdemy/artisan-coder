@@ -36,7 +36,7 @@ export function getGrammarKindForFlagVariableNames(): string {
 }
 
 export function getGrammarKindsForFunctionNames(): string[] {
-  return ['verb', 'verbNoun', 'verbNounAdjective', 'verbAdverbe', 'verb*'];
+  return ['verb', 'verbNoun', 'verbNounAdjective', 'verbAdverb', 'verb*'];
 }
 
 function printGrammar(grammar: string[]): void {

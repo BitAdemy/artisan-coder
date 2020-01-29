@@ -11,7 +11,7 @@ import {
 
 describe('Plain crystal clear Code', () => {
   test('Use an style guide', () => {
-    expect(shouldUseAnStyleGuide()).toEqual(true);
+    expect(shouldUseAnStyleGuide()).toBeTruthy();
   });
   test('Set Your Limits', () => {
     expect(getLimits()).toEqual({ lineLenght: 100, fileLength: 200 });
@@ -31,6 +31,6 @@ describe('Plain crystal clear Code', () => {
   test('Use verbs for functions', () => {
     expect(
       getGrammarKindsForFunctionNames().every(grammarKind => grammarKind.startsWith('verb'))
-    ).toEqual(true);
+    ).toBeTruthy();
   });
 });
