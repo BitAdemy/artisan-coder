@@ -1,4 +1,7 @@
-export function becomeAnArtisan(principles: string[], discipline: Discipline): string[] {
+export function becomeAnArtisan(
+  principles: string[],
+  discipline: Discipline
+): string[] {
   let artisan: string[] = [...principles];
   discipline.activities = activities;
   artisan = [...artisan, ...discipline.values];

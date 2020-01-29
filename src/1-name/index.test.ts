@@ -30,7 +30,9 @@ describe('Plain crystal clear Code', () => {
   });
   test('Use verbs for functions', () => {
     expect(
-      getGrammarKindsForFunctionNames().every(grammarKind => grammarKind.startsWith('verb'))
+      getGrammarKindsForFunctionNames().every(grammarKind =>
+        grammarKind.startsWith('verb')
+      )
     ).toBeTruthy();
   });
 });

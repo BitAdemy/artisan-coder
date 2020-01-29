@@ -1,6 +1,11 @@
 /* eslint-disable max-nested-callbacks */
 /* eslint-disable max-lines-per-function */
-import { applyPrinciples, getCleanPrinciples, isMyCodeClean, shouldICleanMyCode } from './main';
+import {
+  applyPrinciples,
+  getCleanPrinciples,
+  isMyCodeClean,
+  shouldICleanMyCode,
+} from './main';
 
 describe('Clean Code', () => {
   test('Code always smells', () => {

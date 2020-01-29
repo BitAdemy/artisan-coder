@@ -1,6 +1,10 @@
 /* eslint-disable no-magic-numbers */
 /* eslint-disable max-nested-callbacks */
-import { avoidPrimitiveObsession, getNumberOfParams, shouldAvoidCondionals } from './index';
+import {
+  avoidPrimitiveObsession,
+  getNumberOfParams,
+  shouldAvoidCondionals,
+} from './index';
 
 describe('Data structures everywhere', () => {
   test('Avoid primitive obsession', () => {

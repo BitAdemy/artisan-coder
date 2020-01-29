@@ -7,7 +7,8 @@ export function writeSmallFunctions(priciples: string[]): void {
 export function writeOneSentencePerLine(): boolean {
   const year = '2020';
   const category = 'Código limpio';
-  const title = 'Código artesano: limpia tu código con la artesanía del Software.';
+  const title =
+    'Código artesano: limpia tu código con la artesanía del Software.';
   let slug = `${year}-${category}-${title}`;
   const isComplex = true;
   if (isComplex) {
