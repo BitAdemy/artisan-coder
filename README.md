@@ -2,11 +2,46 @@
 
 Project used in meetups and conferences to illustrate Clean Code concepts and Software Craftsmanship practices.
 
-## Repositorios:
+## Start
+
+### Local dependencies :
+
+```bash
+# npm
+npm i
+# yarn
+yarn
+```
+
+### Global dependencies :
+
+#### Parcel
+
+```bash
+# npm
+npm install -g parcel-bundler
+# yarn
+yarn global add parcel-bundler
+```
+
+### Scripts :
+
+```bash
+# npm
+npm start # run de application on localhost
+npm test # excute tests
+nom run deploy # compiles, bundles and pushes to github pages
+# yarn
+yarn start # run de application on localhost
+yarn test # excute tests
+yarn deploy # compiles, bundles and pushes to github pages
+```
+
+## Ejecutables:
 
 ### [En CodeSandbox](https://codesandbox.io/s/github/BitAdemy/artisan-coder/tree/master/?fontsize=14&hidenavigation=1&theme=dark)
 
-### [Demo](https://bitademy.github.io/artisan-coder/)
+### [Página desplegada en GitHub pages](https://bitademy.github.io/artisan-coder/)
 
 ## Para saber más:
 
