@@ -55,6 +55,6 @@ yarn deploy # compiles, bundles and pushes to github pages
 
 ### [Presenciales: VitaeDigital](http://www.vitaedigital.com/proyectos-de-formacion?q=clean+code)
 
-### [On-line: bit_Ademy](https://aula.bitademy.com/p/codigo-limpio/?product_id=1613324&coupon_code=CLEAN_CODE_MEETUP_20)
+### [On-line: bit_Ademy](https://aula.bitademy.com/p/codigo-limpio/?product_id=1647360&coupon_code=BETA_40)
 
 [![bit_ademy](./src/assets/bit_ademy.png)](https://bitademy.com)
